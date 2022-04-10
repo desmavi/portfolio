@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fcbd589e.css",
+    "main.js": "/portfolio/static/js/main.ffcdd8f7.js",
+    "static/media/med-gif.gif": "/portfolio/static/media/med-gif.f015c4218c07f21dc635.gif",
+    "static/media/mocked-mockup.png": "/portfolio/static/media/mocked-mockup.247d0c4180a10f9335a7.png",
+    "static/media/cnftmeter-2.png": "/portfolio/static/media/cnftmeter-2.21a73f0c4d5b37c026f4.png",
+    "static/media/med-landing.png": "/portfolio/static/media/med-landing.8904c4a9d3d49660373f.png",
+    "static/media/w2w-mockup-light.png": "/portfolio/static/media/w2w-mockup-light.7aa8d4135e6486b5b99c.png",
+    "static/media/cnftmeter-thumb-2.png": "/portfolio/static/media/cnftmeter-thumb-2.26b90d954422b6d810f6.png",
+    "static/media/moked-thumb.png": "/portfolio/static/media/moked-thumb.e61a738e3e5ce05de794.png",
+    "static/media/med-mockup.png": "/portfolio/static/media/med-mockup.6b98ee2eefc0c7aa47c4.png",
+    "static/media/cnftmeter-card.png": "/portfolio/static/media/cnftmeter-card.4b23d62c876f9ee27a4c.png",
+    "static/media/cnftmeter-featured-2.png": "/portfolio/static/media/cnftmeter-featured-2.66da9128aa107393d8c3.png",
+    "static/media/cnftmeter-styleguide.png": "/portfolio/static/media/cnftmeter-styleguide.778fe56e717805c609d5.png",
+    "static/media/w2w-thumb.png": "/portfolio/static/media/w2w-thumb.5fa5b3ebe97270ea2b90.png",
+    "static/media/moked-featured.png": "/portfolio/static/media/moked-featured.6175e70b84509b3ab015.png",
+    "static/media/med-wireframes-min.png": "/portfolio/static/media/med-wireframes-min.9057ea2c9a17b9a774eb.png",
+    "static/media/med-persona-andrea.png": "/portfolio/static/media/med-persona-andrea.95e2e65047f001b1f8f6.png",
+    "static/media/med-persona-irene.png": "/portfolio/static/media/med-persona-irene.19d9ebbcf16fbb13102f.png",
+    "static/media/medroutine-featured.png": "/portfolio/static/media/medroutine-featured.00682e11b178cd6158ad.png",
+    "static/media/w2w-featured.png": "/portfolio/static/media/w2w-featured.d55ea7ac5850b86108dc.png",
+    "static/media/medroutine-thumb.png": "/portfolio/static/media/medroutine-thumb.b70dfee5c3aeac74a007.png",
+    "static/media/w2w-styleguide.png": "/portfolio/static/media/w2w-styleguide.6acdb34f0bb068ed647e.png",
+    "static/media/med-iter-1.png": "/portfolio/static/media/med-iter-1.4d60713b6e71eb1aa704.png",
+    "static/media/404.png": "/portfolio/static/media/404.12291012cd3c22017454.png",
+    "static/media/med-stickersheet.png": "/portfolio/static/media/med-stickersheet.62f093367e103797ea22.png",
+    "static/media/cnftmeter-filters-attr.png": "/portfolio/static/media/cnftmeter-filters-attr.65111eb9c5ebf4045b4b.png",
+    "static/media/med-iter-2.png": "/portfolio/static/media/med-iter-2.a427bb02e33fa31ce9a3.png",
+    "static/media/about-avatar-min.png": "/portfolio/static/media/about-avatar-min.a8af6128446de583ef51.png",
+    "index.html": "/portfolio/index.html",
+    "main.fcbd589e.css.map": "/portfolio/static/css/main.fcbd589e.css.map",
+    "main.ffcdd8f7.js.map": "/portfolio/static/js/main.ffcdd8f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcbd589e.css",
+    "static/js/main.ffcdd8f7.js"
+  ]
+}
