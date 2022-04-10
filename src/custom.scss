@@ -1,0 +1,24 @@
+/* make the customizations */
+$theme-colors: (
+    "info": tomato,
+    "danger": teal
+);
+
+$dark: #011928;
+$caption : rgb(75, 78, 87);
+
+//Set the focus-visible style of link items
+$navbar-light-toggler-border-color: transparent;
+$input-btn-focus-box-shadow: 0 0 0 0 transparent;
+$btn-focus-box-shadow: transparent;
+$navbar-toggler-focus-width: 1px;
+$input-btn-focus-width: 1px;
+$input-btn-focus-color: $dark;
+$pagination-focus-color: $dark;
+//link style
+$link-color: $dark;
+//remove hamburger menu border-radius when focused
+$navbar-toggler-border-radius: 0;
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

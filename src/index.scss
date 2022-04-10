@@ -1,0 +1,154 @@
+@import "custom";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.2 opacity ease;
+}
+
+a:not(.logo .navbar-brand, .featured-img):hover {
+  color: $dark;
+  opacity: 0.8;
+}
+
+/*TYPOGRAPHY*/
+
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6,
+.type,
+.quote,
+#projects p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: -1px;
+  
+}
+
+#projects p {
+  font-size: 1.2rem;
+}
+
+.logo {
+  font-family: 'professional muse', serif;
+  font-size: 2.5rem;
+}
+
+.quote {
+  display: block;
+  font-size: 24px;
+  margin: 1rem 0;
+}
+
+#projects h2,
+h3 {
+  font-size: 1.5rem;
+  
+}
+
+.manu {
+  position: relative;
+}
+
+.manu::after {
+  content: '';
+  display:inline-block;
+  height: 15px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #D5DFEC;
+  z-index: -1;
+  transform: rotate(-1deg);
+  transition: height .2s ease-in;
+}
+
+.manu:hover::after {
+  height: 100%;
+  bottom:0;
+}
+
+/*THUMB HOME*/
+
+.thumb {
+  overflow: hidden;
+}
+
+.thumb img {
+  transition: transform 0.5s ease-out;
+}
+
+.thumb img:hover {
+  transform: scale(1.25);
+}
+
+/*NAV-ITEM*/
+
+.cool-link {
+  display: inline-block;
+  position: relative;
+}
+
+.cool-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.cool-link::after {
+  content:'';
+  display:inline-block;
+  position: absolute;
+  transition: width .2s ease-in;
+  background-color: #D5DFEC;
+  z-index: -1;
+  transform: rotate(-1deg);
+  height: 10px;
+  width: 0;
+  bottom:20%;
+  left: 0;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+}
+
+/*MENU TOGGLE */
+
+*:focus-visible,
+.navbar-toggler:focus-visible,
+a:focus-visible {
+    outline: $dark solid 0.5px;
+}   
+
+.navbar-toggler:focus:not(:focus-visible) {
+    outline: none;
+    border: none;
+    box-shadow: 0 0 0 0 transparent;
+}
+
+@media (min-width:"992px"){
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width:"1260px"){
+  h2 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+}
+
+
