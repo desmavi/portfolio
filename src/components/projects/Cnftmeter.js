@@ -70,7 +70,7 @@ export default function Cnftmeter(){
                 <Paragraph>
                     <ParagraphHeading heading="Web App"/>
                     <ParagraphBody>
-                        <p className="mt-lg-2">Cnftmeter è visionabile al seguente 
+                        <p className="mt-lg-2">La versione beta di Cnftmeter è visionabile al seguente 
                         <a target="_blank "className="text-decoration-underline mb-3 d-inline-block ms-1"  href="https://beta.cnftmeter.io">link</a>.
                         </p>   
                     </ParagraphBody>
