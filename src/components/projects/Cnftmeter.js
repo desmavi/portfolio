@@ -14,7 +14,7 @@ import { Icon } from '@iconify/react'
 export default function Cnftmeter(){
     return(
         <PostContainer>
-            <Header title="Cnftmeter" img={cnftmeterFeatured} link="https://cnftmeter.io"/>
+            <Header title="Cnftmeter" img={cnftmeterFeatured} link="https://beta.cnftmeter.io"/>
             <Content>
                 <Paragraph>
                     <ParagraphHeading heading="Overview"/>
@@ -71,7 +71,7 @@ export default function Cnftmeter(){
                     <ParagraphHeading heading="Web App"/>
                     <ParagraphBody>
                         <p className="mt-lg-2">Cnftmeter è visionabile al seguente 
-                        <a target="_blank "className="text-decoration-underline mb-3 d-inline-block ms-1"  href="https://cnftmeter.io">link</a>.
+                        <a target="_blank "className="text-decoration-underline mb-3 d-inline-block ms-1"  href="https://beta.cnftmeter.io">link</a>.
                         </p>   
                     </ParagraphBody>
                 </Paragraph>
